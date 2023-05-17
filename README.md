@@ -8,4 +8,6 @@ How to run this project?
 
 > Step3: open localhost:5000/api in the POSTMAN or Browser to check the response from the API
 
-![ScreenShot](Screenshots/apiresponse.PNG)
+![ScreenShot1](Screenshots/apiresponse.PNG)
+![ScreenShot2](Screenshots/indexpage.PNG)
+![ScreenShot3](Screenshots/report.PNG)
