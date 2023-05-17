@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Success</h1>
+    <center>
+    <table>
+        <tbody>
+          {% if user_data %}
+            <tr>
+              <th>User ID:</th>
+              <td>{{ user_data.user_id }}</td>
+            </tr>
+            <tr>
+              <th>Credit Score:</th>
+              <td>{{ user_data.credit_score }}</td>
+            </tr>
+            <tr>
+              <th>Name:</th>
+              <td>{{ user_data.name }}</td>
+            </tr>
+            <tr>
+              <th>Date of Birth:</th>
+              <td>{{ user_data.date_of_birth }}</td>
+            </tr>
+            <tr>
+              <th>Address:</th>
+              <td>{{ user_data.address }}</td>
+            </tr>
+            <tr>
+              <th>SSN:</th>
+              <td>{{ user_data.ssn }}</td>
+            </tr>
+            <tr>
+              <th>Credit Card Number:</th>
+              <td>{{ user_data.credit_card_number }}</td>
+            </tr>
+            <tr>
+              <th>Report Date:</th>
+              <td>{{ user_data.report_date }}</td>
+            </tr>
+            <tr>
+              <th>Open Accounts:</th>
+              <td>{{ user_data.open_accounts }}</td>
+            </tr>
+            <tr>
+              <th>Closed Accounts:</th>
+              <td>{{ user_data.closed_accounts }}</td>
+            </tr>
+            <tr>
+              <th>Total Accounts:</th>
+              <td>{{ user_data.total_accounts }}</td>
+            </tr>
+            <tr>
+              <th>Oldest Account Type:</th>
+              <td>{{ user_data.oldest_account_type }}</td>
+            </tr>
+            <tr>
+              <th>Oldest Account Date:</th>
+              <td>{{ user_data.oldest_account_date }}</td>
+            </tr>
+            <tr>
+              <th>Recent Account Type:</th>
+              <td>{{ user_data.recent_account_type }}</td>
+            </tr>
+            <tr>
+              <th>Recent Account Date:</th>
+              <td>{{ user_data.recent_account_date }}</td>
+            </tr>
+            <tr>
+              <th>Active Accounts:</th>
+              <td>{{ user_data.active_accounts }}</td>
+            </tr>
+            <tr>
+              <th>Closed Accounts:</th>
+              <td>{{ user_data.closed_accounts }}</td>
+            </tr>
+            <tr>
+              <th>Credit Utilization:</th>
+              <td>{{ user_data.credit_utilization }}</td>
+            </tr>
+            <tr>
+              <th>Payment History:</th>
+              <td>{{ user_data.payment_history }}</td>
+            </tr>
+          {% else %}
+            <tr>
+              <td colspan="2">User data not found</td>
+            </tr>
+          {% endif %}
+        </tbody>
+      </table>
+    </center>
+
+    {% endblock %}

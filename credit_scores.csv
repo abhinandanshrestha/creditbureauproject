@@ -1,0 +1,11 @@
+user_id,credit_score,name,date_of_birth,address,ssn,credit_card_number,report_date,open_accounts,closed_accounts,total_accounts,oldest_account_type,oldest_account_date,recent_account_type,recent_account_date,active_accounts,closed_accounts,credit_utilization,payment_history
+1,734,User 1,06/20/1994,1 Main St,303-60-2036,XXXX-XXXX-XXXX-3488,05/09/2023,6,5,11,Mortgage,07/06/2016,Credit Card,08/10/2017,0,5,0.76,0.96
+2,759,User 2,04/01/1995,2 Main St,346-35-3165,XXXX-XXXX-XXXX-7800,05/06/2023,8,2,10,Mortgage,08/31/2017,Auto Loan,12/12/2016,8,2,0.26,0.86
+3,534,User 3,05/28/1970,3 Main St,849-19-2216,XXXX-XXXX-XXXX-6101,05/15/2023,10,5,15,Mortgage,08/14/2017,Home Loan,03/21/2021,2,5,0.74,0.86
+4,513,User 4,04/23/1987,4 Main St,960-48-9268,XXXX-XXXX-XXXX-5098,05/09/2023,2,2,4,Credit Card,01/08/2023,Mortgage,05/05/2014,0,2,0.13,0.83
+5,743,User 5,02/19/1982,5 Main St,578-96-5877,XXXX-XXXX-XXXX-5401,04/19/2023,10,7,17,Home Loan,07/27/2016,Auto Loan,08/14/2021,4,7,0.34,0.87
+6,779,User 6,02/10/1994,6 Main St,195-10-8264,XXXX-XXXX-XXXX-5323,04/17/2023,4,0,4,Home Loan,09/28/2022,Mortgage,02/27/2014,4,0,0.41,0.51
+7,650,User 7,12/28/1993,7 Main St,769-93-7797,XXXX-XXXX-XXXX-8741,05/05/2023,1,0,1,Home Loan,01/02/2016,Auto Loan,12/13/2017,0,0,0.43,0.69
+8,817,User 8,02/05/1963,8 Main St,629-54-1321,XXXX-XXXX-XXXX-7148,05/17/2023,10,9,19,Mortgage,06/08/2017,Home Loan,01/03/2021,5,9,0.4,0.75
+9,607,User 9,10/11/1960,9 Main St,325-54-4640,XXXX-XXXX-XXXX-1761,05/17/2023,7,2,9,Mortgage,12/04/2020,Credit Card,09/30/2018,6,2,0.61,0.88
+10,606,User 10,03/24/1981,10 Main St,532-75-5023,XXXX-XXXX-XXXX-6374,05/16/2023,8,3,11,Credit Card,06/13/2017,Home Loan,04/01/2019,5,3,0.48,0.95
